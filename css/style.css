@@ -607,3 +607,26 @@ small,
     scroll-behavior: auto;
   }
 }
+
+/* 8. icones        */
+.contato-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.contato-item .icone {
+  width: 24px;
+  height: 24px;
+  color: #C1A15A; /* dourado */
+  flex-shrink: 0;
+}
+
+.contato-item a {
+  color: inherit;
+  text-decoration: none;
+} 
+
+/*  9. alinhamento   */
+.contato-item.sem-icone { padding-left: 34px; }
